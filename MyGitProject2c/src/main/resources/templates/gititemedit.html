@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>○○ショップ_商品編集</title>
+</head>
+<body>
+<h1>商品編集画面</h1>
+<form th:action="@{/gititemchanged}" method="POST" enctype="multipart/form-data">
+<h2>商品名</h2>
+<input type = "text" name="itemname">
+<h2>値段</h2>
+<input type="text" name="price">
+<br>
+<input type="submit" value="変更">
+</form>
+</body>
+</html>
